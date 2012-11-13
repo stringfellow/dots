@@ -1,5 +1,7 @@
 #!/bin/bash
 rm -rf ~/.vim
-cp .vim ~/.vim
+cp -r .vim ~/.vim
 cp .vimrc ~/.vimrc
+git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+
 cp .tmux.conf ~/.tmux.conf
